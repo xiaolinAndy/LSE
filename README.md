@@ -25,7 +25,7 @@ Super Level Set Estimation Algorithms Implementation, including LSE, TRUVAR, RMI
   + normal (default) : run each algorithm for 10 times, calculate the avarage steps and draw F1 score plots with steps, saved in `images/f1_step.png`
   + cost : run each algorithm for 1 time, draw F1 score plots with costs, saved in `images/f1_cost.png`
   + single : run only one algorithm and draw first 20 picked points and paths, saved in `images/algo_label+points.png`, `images/algo_label+paths.png`
-+ algo : choosing which algo to run, need to input at least one algo, indicated by a int number
++ algo : choosing which algo to run, need to input at least one algo, indicated by an integer number
   + 1 : LSE
   + 2 : LSE with implicit threshold
   + 3 : modified LSE with implicit threshhold (referenced in my project report)
