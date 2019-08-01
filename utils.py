@@ -97,7 +97,7 @@ def f1_plots(F1_lists, labels):
     plt.xticks([0, 20, 40, 60, 80, 100], [0, 20, 40, 60, 80, 100])
     plt.legend(loc='lower right')
     plt.show()
-    plt.savefig("images/f1_box.png")
+    plt.savefig("images/f1_step.png")
 
 # draw picked points for a given algo
 def draw_points(points, label, cost):
